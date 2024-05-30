@@ -1,20 +1,112 @@
 export const database = {
   fish: [
     {
-      name: "Nemo",
-      species: "Clownfish",
-      length: 3,
-      location: "Great Barrier Reef",
-      diet: "Omnivore",
-      image: "https://example.com/images/nemo.jpg",
+      name: "John",
+      species: "Salmon",
+      length: 30, // Divisible by 3 and 5
+      habitat: "Freshwater",
+      diet: "Insects",
     },
     {
-      name: "Dory",
-      species: "Blue Tang",
-      length: 5,
-      location: "Great Barrier Reef",
-      diet: "Omnivore",
-      image: "https://example.com/images/dory.jpg",
+      name: "Bill",
+      species: "Tuna",
+      length: 45, // Divisible by 3 and 5
+      habitat: "Saltwater",
+      diet: "Small fish",
+    },
+    {
+      name: "Cory",
+      species: "Goldfish",
+      length: 15, // Divisible by 3 and 5
+
+      habitat: "Freshwater",
+      diet: "Flakes",
+    },
+    {
+      name: "Story",
+      species: "Shark",
+      length: 60, // Divisible by 3 and 5
+
+      habitat: "Saltwater",
+      diet: "Fish",
+    },
+    {
+      name: "Bory",
+      species: "Trout",
+      length: 33, // Divisible by 3
+
+      habitat: "Freshwater",
+      diet: "Insects",
+    },
+    {
+      name: "Tory",
+      species: "Marlin",
+      length: 90, // Divisible by 3 and 5
+      habitat: "Saltwater",
+      diet: "Squid",
+    },
+    {
+      name: "Rory",
+      species: "Betta",
+      length: 6, // Divisible by 3
+
+      habitat: "Freshwater",
+      diet: "Insects",
+    },
+    {
+      name: "Murry",
+      species: "Clownfish",
+      length: 12, // Divisible by 3
+
+      habitat: "Saltwater",
+      diet: "Algae",
+    },
+    {
+      name: "Mason",
+      species: "Catfish",
+      length: 24, // Divisible by 3
+
+      habitat: "Freshwater",
+      diet: "Algae",
+    },
+    {
+      name: "Manson",
+      species: "Guppy",
+      length: 3, // Divisible by 3
+
+      habitat: "Freshwater",
+      diet: "Flakes",
+    },
+    {
+      name: "Jason",
+      species: "Swordfish",
+      length: 150, // Divisible by 3 and 5
+
+      habitat: "Saltwater",
+      diet: "Fish",
+    },
+    {
+      name: "Chris",
+      species: "Anchovy",
+      length: 9, // Divisible by 3
+
+      habitat: "Saltwater",
+      diet: "Plankton",
+    },
+    {
+      name: "Buck",
+      species: "Mackerel",
+      length: 7,
+      habitat: "Saltwater",
+      diet: "Small fish",
+    },
+    {
+      name: "Flipper",
+      species: "Snapper",
+      length: 1,
+
+      habitat: "Saltwater",
+      diet: "Crustaceans",
     },
   ],
   tips: [
